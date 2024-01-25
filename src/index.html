@@ -8,13 +8,37 @@
 
     <title>Grocify</title>
 </head>
-<body>
+<body class="bg-[url('../images/image.png')] bg-center bg-cover min-h-screen relative">
     
-    <div>
-        <nav>
-            
+    <div class="container min-w-full px-28 py-5">
+        <nav class="flex justify-between items-center ">
+            <img src="../images/logo.png" alt="" class="w-40 cursor-pointer">
+            <ul class="no-underline text-white flex justify-between gap-10 mx-5 text-2xl">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="../images/cart.png" alt="" class="w-8">
         </nav>
     </div>
 
+    <div class="text-white mt-48 max-w-2xl pl-28">
+        <h1 class="text-6xl font-semibold leading-normal">Groceries <br>
+            delivery in <span class="font-light">15 mins</span>
+        </h1>
+            <p class="max-w-">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quae et sapiente assumenda unde minima nostrum aliquid expedita
+            </p>
+
+            <div class="mt-10">
+                <a href="#" class="bg-yellow-300 rounded-3xl p-3 px-8 font-medium mr-4 hover:bg-transparent hover:border hover:border-yellow-300 duration-300 border border-transparent">Order Now</a>
+                <a href="#">Download App <span class="text-lg inline-block rotate-90 hover:rotate-0 transition-all">&#10148</span></a>
+            </div>
+            <img src="../images/grocery-image.png" alt="" class="w-full sm:absolute w-1/2 right-10 xl:w-1/2 xl:absolute bottom-0 right-20">
+    </div>
+    <footer class="text-white absolute left-0 bottom-0 p-5">
+        <p>Create by IbsDev by watch <a target="_blank" class="text-blue-800 font-bold hover:underline" href="https://youtu.be/8eQwgc9nc64?si=6LA8svLbtbf67ffq">GreatStack</a></p>
+    </footer>
 </body>
 </html>
